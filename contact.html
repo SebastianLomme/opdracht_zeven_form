@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Pagina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="black-border" id="green-background">Contact formulier</h1>
+            <nav>
+                <ul class="nav-element">
+                    <li>
+                        <a href="index.html">Home pagina</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Over mij</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fname" id="firstNameInput" placeholder="Naam">
+                    <label for="lname">Achtername:</label>
+                    <input type="text" name="lname" id="lastNameInput" placeholder="Achternaam">
+                    <label for="email">Emailadres:</label>
+                    <input type="email" name="email" id="emailInput" placeholder="Email">
+                    <label for="textveld">Vraag</label>
+                    <textarea name="textveld" id="textInput" cols="30" rows="10"></textarea>
+                    <input type="submit" name="submit" id="submitBtn">
+                </form>
+            </section>
+
+        </main>
+
+
+    </div>
+
+</body>
+
+</html>
